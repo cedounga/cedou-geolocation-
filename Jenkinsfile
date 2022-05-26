@@ -25,13 +25,13 @@ pipeline {
         }
         stage('cedou') {
             steps {
-                echo 'cedou'
+                echo 'cedou2'
                 
             }
         }
         stage('deploy') {
             steps {
-                echo 'deploy'
+                echo 'deployment'
                 
             }
         }
