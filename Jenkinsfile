@@ -8,6 +8,7 @@ pipeline {
     registryCredential = 'jenkins-ecr'
     dockerimage = ''
   }
+    
     stages {
         stage('Checkout'){
             steps{
